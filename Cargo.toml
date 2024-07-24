@@ -1,0 +1,10 @@
+[package]
+name = "foolib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[features]
+default = [] # Specifies what features are enabled by default
+x = [] # Declares a feature named 'x'
