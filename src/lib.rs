@@ -8,3 +8,11 @@ pub fn feature_x() {
 pub fn feature_x() {
     println!("Feature X is disabled!");
 }
+
+pub struct Foo;
+
+impl Foo {
+    pub fn foo() {
+        println!("Foo");
+    }
+}
