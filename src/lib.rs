@@ -16,3 +16,10 @@ impl Foo {
         println!("Foo");
     }
 }*/
+
+pub struct Foo;
+impl Foo {
+    pub fn foo(){
+        println!("Foo");
+    }
+}
