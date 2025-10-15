@@ -26,7 +26,7 @@ impl Foo {
 
 pub struct Bar;
 impl Bar {
-    pub fn bar() {
+    pub fn bar_new() {
         println!("Bar");
     }
 }
