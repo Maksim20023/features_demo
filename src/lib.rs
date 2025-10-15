@@ -31,9 +31,9 @@ impl Bar {
     }
 }
 
-struct Baz;
+pub struct Baz;
 impl Baz {
-    fn baz() {
+    pub fn baz() {
         println!("Baz");
     }
 }
