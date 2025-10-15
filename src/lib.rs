@@ -23,3 +23,17 @@ impl Foo {
         println!("Foo");
     }
 }
+
+pub struct Bar;
+impl Bar {
+    pub fn bar() {
+        println!("Bar");
+    }
+}
+
+struct Baz;
+impl Baz {
+    fn baz() {
+        println!("Baz");
+    }
+}
